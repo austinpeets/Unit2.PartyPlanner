@@ -32,7 +32,7 @@ async function displayPartyList() {
 
     parties.forEach(party => {
         const partyElement = document.createElement('li');
-        partyElement.textContent = `${party.name} - ${party.date} - ${party.cohortId} - ${party.location} - ${party.description}`
+        partyElement.textContent = `${party.name} - ${party.date} - ${party.location} - ${party.description}`
     
 
     const deleteButton = document.createElement('button');
