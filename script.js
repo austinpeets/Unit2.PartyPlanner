@@ -69,7 +69,6 @@ document.getElementById('party-form').addEventListener('submit', async event => 
     const partyData = {
         name: formData.get('name'),
         description: formData.get('description'),
-        cohortId: formData.get('cohort'),
         date: isoDate,
         location: formData.get('location')
     };
