@@ -14,7 +14,9 @@
 // API to use
 const APIURL = 'https://fsa-crud-2aa9294fe819.herokuapp.com/api/2401-FTB-MT-WEB-PT/events'
 
-
+const state = {
+    data: []
+}
 
 async function fetchPartyList() {
     const response = await fetch(`${APIURL}`);
